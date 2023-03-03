@@ -152,7 +152,7 @@ exports.postSignup = (req, res, next) => {
                 to: email,
                 from: "ahmedmagdyfakeacc@gmail.com",
                 subject: "from the node app",
-                text: "Kosom osama ",
+                text: "test mail",
             });
         })
         .catch((err) => {
